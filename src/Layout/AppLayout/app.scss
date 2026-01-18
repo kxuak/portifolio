@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+body {
+    margin: 0px;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #18181B;
+    color:#FFFAFF;
+}
+
+.appLayout {
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+.header {
+   height: 60px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.buttons {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 80px;
+  margin-top: 50px;
+  white-space: nowrap;
+}
+
+
+main {
+  margin-top: 3rem;
+}
+
+.navLink {
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  color: #FFFAFF;
+  font-size: large;
+  padding: 8px 20px;
+  border-radius: 999px;
+  transition: 0.2s;
+  white-space: nowrap;
+}
+
+
+
+.indicator {
+  position: absolute;
+  left: 0;
+  top: 15%;
+  height: 36px;
+  background: #232327;
+  border-radius: 999px;
+  transform: translateY(-50%);
+  transition: transform 0.35s ease, width 0.35s ease;
+
+  z-index: 0;
+}
+
+
+.footer {
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50rem;
+  margin-top: 200px;
+}
+
+.names {
+  color: #FFFAFF;
+}
+
+.social {
+    display: flex;
+    gap: 0.8rem;
+    max-width: 200px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer; 
+}
+
+@media (max-width: 410px) {
+    .buttons {
+      gap: 4px;
+    }
+    .navLink {
+      
+    font-size: small;
+     padding: 8px 8px;
+    }
+
+    .footer {
+    gap: 0.2rem;
+    }
+}
+
+
+@media (min-width: 410px) and (max-width: 500px) {
+    .navLink {
+      
+    font-size: medium;
+     padding: 8px 15px;
+    }
+
+    .footer {
+      gap: 5rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 700px) {
+
+    .footer {
+    gap: 8rem;
+    }
+  }
+
+  @media (min-width: 701px) and (max-width: 900px) {
+
+    .footer {
+    gap: 20rem;
+    }
+  }
+
+  @media (min-width: 901px) and (max-width: 1200px) {
+
+    .footer {
+    gap: 35rem;
+    }
+  }

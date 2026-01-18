@@ -1,0 +1,27 @@
+.myProjects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-projects {
+    font-size: 50px;
+    margin: 40px 0px 15px 0px;
+}
+
+.description-projects {
+  font-size: 1.2rem;
+  text-align: center;
+  max-width: 900px;
+  color: #fffaffd0;
+  margin: 0px 50px 66px 50px;
+}
+
+.cardsProjects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+

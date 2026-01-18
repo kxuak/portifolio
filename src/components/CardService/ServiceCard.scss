@@ -1,0 +1,94 @@
+.service-card {
+  background: linear-gradient(180deg, #212124, #21212425);
+  border: 2px solid rgba(255, 255, 255, 0.08);
+  border-radius: 1rem;
+  padding: 24px;
+  width: 380px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow:0 20px 40px rgba(0, 0, 0, 0.6);
+  }
+}
+
+.service-card__title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.service-card__description {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #fffaffd0;
+}
+
+.service-card__benefits-title {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-bottom: 6px;
+  display: inline-block;
+}
+
+.service-card__benefits {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.9rem;
+    color: #fffaffd0;
+
+    .check {
+      color: #22c55e;
+      font-weight: bold;
+    }
+  }
+}
+
+.service-card__button {
+  margin-top: auto;
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.08);
+
+  background: transparent;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 500;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  transition: background 0.3s ease, border 0.3s ease;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.06);
+  }
+
+  .arrow {
+    transition: transform 0.3s ease;
+  }
+
+  &:hover .arrow {
+    transform: translateX(4px);
+  }
+}
