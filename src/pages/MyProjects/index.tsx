@@ -26,7 +26,7 @@ const MyProjects = () => {
         <CardProject
         title='KumOS'
         descriptionProject='Este site foi desenvolvido com o objetivo de facilitar o cadastro e a gestão de clientes e serviços, oferecendo uma solução simples e eficiente para empresas e profissionais autônomos que buscam melhorar sua organização e produtividade.'
-        image="../../../public/Kumos/Kumos.png"
+        image="/Kumos/Kumos.png"
         tecnologias= {['React', 'Typescript', 'Tailwind', 'Figma']}
         link='https://kum-os.vercel.app/'
         github='https://github.com/kxuak/KumOS'

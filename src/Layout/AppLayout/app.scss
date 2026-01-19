@@ -82,7 +82,7 @@ main {
 
 .social {
     display: flex;
-    gap: 0.8rem;
+    gap: 0.5rem;
     max-width: 200px;
 }
 
@@ -92,7 +92,7 @@ main {
     cursor: pointer; 
 }
 
-@media (max-width: 410px) {
+@media (max-width: 409px) {
     .buttons {
       gap: 4px;
     }
@@ -103,7 +103,7 @@ main {
     }
 
     .footer {
-    gap: 0.2rem;
+    gap: 2rem;
     }
 }
 

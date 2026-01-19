@@ -15,8 +15,8 @@
 
   padding: 1rem;
   width: 20rem;
-  height: 28rem;
-  max-height: 28rem;
+  height: 30rem;
+  max-height: 30rem;
   background-color: var(--bg-card);
 
   border-radius: 1rem;
@@ -106,6 +106,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 15px;
   gap: 3rem;
 }
 
@@ -154,4 +155,12 @@
 
 .buttonLink:hover {
   background-color: #181717a8;
+}
+
+
+@media (max-width: 399px) {
+  .cardProject {
+      width: 280px;
+      height: 30rem;
+    }
 }

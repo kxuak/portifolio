@@ -21,7 +21,8 @@ const Home = () => {
     <div className='home'>
       <div className="headline reveal from-top">
         <p className='more'>Boas-Vindas ao meu portifolio!</p>
-        <h4 className='title'>Meu Nome é Kauã <span>Um Desenvolvedor FrontEnd</span></h4>
+        <h4 className='titleNome'>Meu Nome é Kauã</h4>
+        <h4 className='titleSobre'>Um Desenvolvedor FrontEnd</h4>
       </div>
 
       <div className="sobre">
